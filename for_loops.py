@@ -32,7 +32,7 @@ for province in provinces:
     elif province == "QB" or province == "PR":  # province in ["QB", "PR"]
         print(f"{province} speaks French")
 
-
+# 'break' to stop the loop
 
 
 
