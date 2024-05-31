@@ -15,7 +15,8 @@ print(heights_updated)
 # - user defined functions (your own custom function)
 #   (DocString)
 
-def factorial(n: int) -> int:  # function header (prototype)
+
+def factorial(n: int = 1) -> int:  # function header (prototype)
     """
     Returns the factorial of the given integer n.
 
@@ -29,5 +30,7 @@ def factorial(n: int) -> int:  # function header (prototype)
 
 
 x = factorial(5)
+y = factorial()  # same as factorial(1) since default value = 1
 print(x)
+print(y)
 
