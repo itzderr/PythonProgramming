@@ -42,3 +42,9 @@ print(np_bmi[np_bmi > 22])
 np_2d = np.array([[1.75, 1.82, 1.64, 1.70, 1.58],
                   [69.4, 85.2, 54.3, 64.2, 50.8]])
 print(np_2d.shape)
+
+# 1. get the first 3 people's heights and weights
+print(np_2d[:, :3])
+# 2. get the last 3 people's heights and weights
+print(np_2d[:, 2:])
+
